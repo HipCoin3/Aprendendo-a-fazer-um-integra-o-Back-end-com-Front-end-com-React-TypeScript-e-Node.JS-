@@ -1,0 +1,74 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: rgb(0, 12, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 12, 29, 1) 23%,
+    rgba(1, 29, 68, 0.9797047970479705) 47%,
+    rgba(1, 1, 52, 1) 72%,
+    rgba(1, 14, 55, 1) 81%,
+    rgba(0, 0, 0, 0.969152626871061) 98%
+  );
+}
+
+.container form {
+  box-shadow: var(--box-shadow-cards-payment);
+  border-radius: var(--border-radius-default);
+  padding: 3.2rem;
+  height: 24rem;
+  background-color: #f4f3f3;
+}
+
+.container form .name-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.4rem;
+  max-width: 30rem;
+}
+
+div .product-details {
+  background: rgb(184, 205, 237);
+  background: linear-gradient(
+    90deg,
+    rgb(178, 197, 227),
+    rgb(186, 204, 231) 47%,
+    rgb(182, 205, 239) 72%,
+    rgb(182, 209, 250) 81%,
+    rgba(92, 175, 192, 0.969) 98%
+  );
+  border-radius: var(--border-radius-default);
+  padding: 2.4rem;
+  height: 24rem;
+  box-shadow: var(--box-shadow-cards-payment);
+}
+
+.container .product-details h2 {
+  color: #242424;
+  font-weight: 600;
+  text-align: start;
+  font-size: 2.6rem;
+}
+.container .product-details p {
+  color: #666060;
+  text-align: start;
+  max-width: 30rem;
+}
+.container .product-details span {
+  font-weight: 700;
+  font-size: 2.8rem;
+  text-align: start;
+  width: 100%;
+  color: #3e3e3e;
+  display: block;
+}
